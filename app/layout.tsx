@@ -28,7 +28,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en" className={`${playfair.variable} ${manrope.variable} h-full antialiased`}>
-      <body className="min-h-full bg-[#F4F0E8] text-[#263B58]">{children}</body>
+      <body className="min-h-full bg-[#0A0A0A] text-[#F4F0E8]">{children}</body>
     </html>
   );
 }
